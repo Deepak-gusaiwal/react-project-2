@@ -1,0 +1,53 @@
+.contactContainer {
+  width: 100%;
+  height: calc(100vh - 60px);
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: max(3vw,2rem) 1rem;
+}
+.contactTop{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 1000px;
+}
+.contactTop h1{
+  font-size: max(4vw,2rem);
+}
+.contactTop p{
+    line-height: normal;
+}
+.contactBottom{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    height:100% ;
+    flex-wrap: wrap;
+}
+
+.contactForm{
+  flex: 1;
+  min-width: 250px;
+}
+.formWrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 472px;
+}
+.buttonBox{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: max(1.5vw,0.5rem);
+  justify-content: center;
+}
+.buttonBox button{
+  flex: 1;
+  min-width: 200px;
+}
+.contactImgBox{
+  flex: 1;
+  min-width: 250px;
+}
